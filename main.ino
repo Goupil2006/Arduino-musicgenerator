@@ -168,9 +168,9 @@ void loop() {
       delay(1);
     }
     if(TempAuswahl){
-      Serial.println("Meldie");
+      Serial.println("Melodie");
       lcd.clear();
-      lcd.print("Meldie: ");
+      lcd.print("Melodie: ");
       for(int i = 0; i < 16; i++){
             Serial.println(String(i + 1) + ":");
             lcd.setCursor(0, 1);
